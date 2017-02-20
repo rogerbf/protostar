@@ -10,5 +10,10 @@ const main = (core, state) => {
   console.log(state.name)
 }
 
-module.exports = factory.bind(null, main, { changeName }, { name: `unnamed` })
+module.exports = factory.bind(
+  null,
+  main,
+  { changeName },
+  { name: `unnamed` }
+)
 ```
