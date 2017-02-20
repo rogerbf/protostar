@@ -1,7 +1,7 @@
 {
   "name": "ephemeral-core",
   "version": "0.0.1",
-  "description": "",
+  "description": "```javascript const factory = require(`protostar`)",
   "main": "index.js",
   "scripts": {
     "test": "jest --config .jest",
@@ -24,5 +24,13 @@
     "eslint-plugin-standard": "^2.0.1",
     "jest-cli": "^18.1.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogerbf/protostar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rogerbf/protostar/issues"
+  },
+  "homepage": "https://github.com/rogerbf/protostar#readme"
 }
