@@ -1,7 +1,7 @@
 {
-  "name": "ephemeral-core",
+  "name": "protostar",
   "version": "0.0.1",
-  "description": "```javascript const factory = require(`protostar`)",
+  "description": "create a core",
   "main": "index.js",
   "scripts": {
     "test": "jest --config .jest",
